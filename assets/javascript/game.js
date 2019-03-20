@@ -9,7 +9,7 @@ let loses = 0
 
 next()
 
-window.onkeyup = keyCatch
+window.onkeypress = keyCatch
 
 function keyCatch(event) {
     var playerChoise = (String.fromCharCode(event.keyCode)).toLowerCase()
